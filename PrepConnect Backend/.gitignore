@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+PORT=your_port_number
+ MONGO_URI=yout_mongo_uri
+JWT_SECRET=yout_secret_key
+NODE_ENV=development
+
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Coverage directory
+coverage/
+
+# VSCode settings
+.vscode/
+
+# Others
+*.swp 

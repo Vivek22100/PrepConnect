@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# VSCode settings
+.vscode/
+.history/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore coverage/test outputs
+coverage/
+*.lcov
+
+# Optional: Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# If using Vite (React)
+.vite/
